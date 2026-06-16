@@ -1,0 +1,21 @@
+.body {
+background-color: rgb(9, 30, 1); 
+background-image: 
+    linear-gradient(rgba(229, 229, 243, 0.05) 1px, transparent 1px),
+    linear-gradient(to right, rgba(229, 229, 243, 0.05) 1px, transparent 1px);
+background-size: 56px 56px;
+}
+
+.body,
+html {
+  scroll-behavior: smooth;
+}
+
+.page {
+  font-family: "inter", sans-serif;
+  color: rgb(217, 198, 180);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+}

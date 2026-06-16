@@ -1,3 +1,8 @@
-@import url(../Components/page.css);
+@import url(./Components//page.css);
 @import url(App.css);
-@import url(../Components/NavBar/navBar.css);
+@import url(./Components/NavBar/navBar.css);
+@import url(./Components/Header/header.css);
+@import url(./Components/AboutMe/aboutMe.css);
+@import url(./Components/Projects/projects.css);
+@import url(./Components/Contact/contact.css);
+@import url(./Components/Tecnologies/tecnologies.css);

@@ -1,0 +1,85 @@
+.aboutMe {
+    padding: 70px 20px;
+}
+
+.aboutMe__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.aboutMe__photo{
+    width: 620px;
+    border-radius: 5%;
+    margin-bottom: 20px;
+}
+
+.aboutMe__content {
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
+    text-align: left;
+    margin-left: 20px
+}
+
+.aboutMe__subtitle {
+    font-size: 13px;
+    margin-bottom: 10px;
+    color: rgb(238, 175, 15);
+}
+
+.aboutMe__title {
+    font-size: 4rem;
+    font-weight: 800;
+    background: linear-gradient(to left, green, orange, yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+    line-height: 1;
+}
+
+.aboutMe__text {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.aboutMe__boxes {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: left;
+}
+
+.aboutMe__box {
+    background-color: transparent;
+    color: white;
+    padding: 0px 20px;
+    text-align: center;
+    font-size: 16px;
+    border: 0.5px solid rgba(242, 237, 164, 17%);
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.aboutMe__box-title{
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.aboutMe__box-title-verde{
+    color: rgb(108, 238, 15);
+}
+
+.aboutMe__box-title-naranja{
+    color: rgba(226, 168, 8, 0.986);
+}
+
+.aboutMe__box-text{
+    font-size: 14px;
+    color: #777;
+}

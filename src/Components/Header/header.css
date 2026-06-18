@@ -5,8 +5,8 @@
 .header__container{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-around;
 }
 
 .header__content{
@@ -38,19 +38,20 @@
 .header__subtitle{
     font-size: 1rem;
     color: rgb(238, 175, 15);
-    margin: 20px 0 10px 0;
+    margin: 30px 0 20px 0;
+    letter-spacing: 4px;
 }
 
 .header__text{
     font-size: 1.25rem;
     color: #868585;
-    margin: 10px 0 20px 5px;
+    margin: 20px 0 20px 0px;
 }
 
 .header__buttons{
     display: flex;
     gap: 20px;
-
+    align-items: center;
 }
 
 .header__button-projects{
@@ -60,13 +61,22 @@
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display:flex;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 25px;
+    white-space: nowrap;
+    gap: 5px;
+    transition: transform 0.2s ease;
+    transform-origin: center;
+    will-change: transform;
 }
     
+.header__button-projects:hover {
+    transform: scale(1.07);
+}
+
 .header__button-contact{
     background-color:  transparent;
     border: none;
@@ -74,11 +84,12 @@
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: flex;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 25px;
+    gap: 5px;
 }
 
 .header__button-contact:hover{
@@ -86,9 +97,9 @@
     color: rgb(238, 175, 15);
 }
 
-
 .header__photo{
     max-height: 400px;
     border-radius: 5%;
     object-fit: cover;
+    box-shadow: rgba(238, 175, 15, 1.5);
 }

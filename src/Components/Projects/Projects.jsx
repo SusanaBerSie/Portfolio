@@ -65,9 +65,17 @@ function Projects() {
                         <p className="projects__card-role-description">{project.roleDescription}</p>
                         <div className="projects__card-buttons">
                             <button className="projects__card-button-proyects">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                                    <path fill="none" d="M0 0h24v24H0z"/>
+                                    <path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 4H6a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-4m-8-2 8-8m0 0v5m0-5h-5"/>
+                                </svg>
                                 {i18n.t("VER PROYECTO")}
                             </button>
                             <button className="projects__card-button-github">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                                    <path d="M0 0h24v24H0z" fill="none" />
+                                    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 22v-3q0-2 1-3A7 6.5 0 0 1 5 5Q4 3 5 1q3 0 4 2q3.5-1 7 0q1-2 4-2q1 2 0 4a7 6.5 0 0 1-5 11q1 1 1 3v3m-7-3c-4 1-4-2-7-3" />
+                                </svg>
                                 {i18n.t("GitHub")}
                             </button>
                         </div>

@@ -5,6 +5,7 @@ import AboutMe from "./Components/AboutMe/AboutMe.jsx";
 import Projects from "./Components/Projects/Projects.jsx";
 import Tecnologies from "./Components/Tecnologies/Tecnologies.jsx";
 import background from "./Images/background-pattern.png";
+import Contact from "./Components/Contact/Contact.jsx";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <AboutMe />
       <Projects />
       <Tecnologies />
+      <Contact />
     </div>
   ) 
 }
